@@ -1,0 +1,446 @@
+html, body{
+  height: 100%;
+  width:100%;
+  margin:0;
+}
+
+#landing{
+  background-image: url('../images/bg1.jpg');
+  min-height: 100%;
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo-black{
+  padding:0;
+  margin:0 3rem;
+}
+
+#logo-black a{
+  text-decoration:none;
+}
+
+#logo-black a h1{
+  font-size:4rem;
+  color:#43484D;
+}
+
+#logo{
+  padding:0;
+  margin:0 3rem;
+  position:fixed;
+}
+
+#logo a{
+  text-decoration:none;
+}
+
+
+#logo a h1{
+  font-size:4rem;
+  color:#fff;
+}
+
+#navbar{
+  padding:0;
+  margin:8rem 1rem;
+  position:fixed;
+}
+
+
+#navbar ul li{
+  list-style:none;
+  padding:1rem;
+}
+
+
+#navbar ul li a{
+  text-decoration:none;
+  color:#fff;
+}
+
+#navbar ul li a:hover{
+  text-decoration:line-through;
+  font-size:1.75rem;
+}
+
+#products{
+  margin:0;
+  padding:0;
+}
+.product-listing{
+  min-height: 100%;
+  position: relative;
+  margin: 1rem 3rem;
+  padding: 0;
+}
+
+.product-listing ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.product-listing li{
+  float: left;
+}
+.product-listing .product {
+  width:25%;
+
+}
+
+#macro{
+  background-image: url('../images/bg4.jpg');
+  min-height: 28%;
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#prime{
+  background-image: url('../images/bg2.jpg');
+  min-height: 28%;
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#zoom{
+  background-image: url('../images/bg3.jpg');
+  min-height: 28%;
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  position:inherit;
+  margin:0 50% 0 0;
+  padding:8% 0 0 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.name a {
+  text-decoration:none;
+}
+
+
+.name a span.branding{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.name a span.product{
+  background-color: #111;
+  color: #fff;
+  margin-top:50%;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.product-page{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 1.2rem;
+}
+
+/* Left Column */
+.left-column img {
+  width: 80%;
+  margin:25rem 0 -25rem 0;
+}
+
+
+/* Product Description */
+.product-description {
+  margin-top: 24rem;
+  position:fixed;
+}
+.product-description span {
+  font-size: 12px;
+  color: #fd79a8;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 600;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: 0px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 30px;
+  margin-right: 8rem;
+}
+
+.product-description button {
+	background-color: #fd79a8;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top:1.5rem;
+}
+
+.specs {
+  font-size: 12px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 30px;
+  padding-left: 1rem;
+  
+}
+
+.about-left {
+  width: 35%;
+  position: relative;
+}
+
+.about-page{
+  max-width:100%;
+  margin:0 auto;
+  padding:3rem;
+  display:flex;
+}
+
+.about-description {
+  margin-top:10rem;
+}
+
+.about-description span {
+  font-size:1rem;
+  letter-spacing:1px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.about-description ul li {
+  list-style: none;
+  display:inline;
+  padding:0 5rem 0 0;
+  margin-left:-2rem;
+}
+
+.about-description ul li a{
+  color:#fd79a8;
+  text-decoration:none;
+}
+
+.about-description ul li a:hover{
+  text-decoration:line-through;
+
+}
+
+.socials ul li a{
+  color:#000;
+  text-decoration:none;
+}
+.about-description h1 {
+  font-weight: 600;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: 0px;
+}
+.about-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 30px;
+}
+
+.about-description button {
+	background-color: #fd79a8;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top:1.5rem;
+}
+
+.about-description button:hover {
+  cursor:pointer;
+}
+
+
+.purchasing {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:3rem;
+}
+
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding:auto;
+}
+
+.container {
+  margin:-3rem 3rem 0 0;
+  padding:3rem 3rem 0 0;
+  width:55%;
+}
+
+input[type=text] {
+  width: 99%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 0.15rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+
+.btn {
+  background-color: #fd79a8;
+  color:#fff;
+  border:none;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.purchasing:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width: 535px) {
+  .left-column img {
+    width: 220px;
+    top: -85px;
+  }
+}
+.
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
