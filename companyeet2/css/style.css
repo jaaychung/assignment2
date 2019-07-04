@@ -29,7 +29,7 @@ footer{
 }
 
 #logo-black a h1{
-  font-size:4rem;
+  font-size:2rem;
   color:#43484D;
 }
 
@@ -176,7 +176,8 @@ footer{
 
 .right-column {
   width: 35%;
-  margin-top: 1.2rem;
+  margin-top:-8.5rem;
+
 }
 
 /* Left Column */
