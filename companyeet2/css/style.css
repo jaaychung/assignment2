@@ -4,6 +4,10 @@ html, body{
   margin:0;
 }
 
+footer{
+	font-size: 0.8rem;
+}
+
 #landing{
   background-image: url('../images/bg1.jpg');
   min-height: 100%;
