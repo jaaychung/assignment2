@@ -178,7 +178,8 @@ html, body{
 /* Left Column */
 .left-column img {
   width: 80%;
-  margin:25rem 0 -25rem 0;
+  height: 100%;
+  margin:0rem 0 -25rem 0;
 }
 
 
